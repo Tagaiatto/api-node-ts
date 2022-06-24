@@ -18,6 +18,10 @@
       "esModuleInterop": true,
       "allowSyntheticDefaultImports": true,
       "baseUrl": ".",
+      "types": [
+        "reflect-metadata",
+        "jest",
+      ],
       "paths": {
         "@src/*": ["./src/*"],
         "@test/*": ["./test/*"]
